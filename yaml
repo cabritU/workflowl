@@ -1,0 +1,24 @@
+name: Fluxo de Ler um Livro
+
+on: Ler um livro:
+push: Commit
+branches: [ main ]
+
+jobs:
+gestão_academica:
+runs-on: ubuntu-latest
+steps:
+- name: 1. Ir ao armario
+run: echo "a gabi foi ate o armario"
+
+- name: 2. Abrir o armario
+run: echo "a gabi abriu o armario"
+
+- name: 3. Pegar o livro
+run: echo "a gabi pegou o livro"
+
+- name: 4. Abrir o livro
+run: echo "a gabi abriu o livro"
+
+- name: 5. Ler o livro
+run: echo "a gabi leu o livro"
